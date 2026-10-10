@@ -1,3 +1,9 @@
+/* ======================================
+   ESTILO PRINCIPAL - Huellitas Comunitarias
+   Paleta de colores: tonos naturales y cálidos
+   ====================================== */
+
+/* ESTILO GENERAL DE LA PÁGINA */
 body {
     font-family: 'Times New Roman', serif;
     margin: 0;
@@ -7,6 +13,7 @@ body {
     line-height: 1.7;
 }
 
+/* ENCABEZADO: TÍTULO Y MENÚ */
 header {
     background-color: #5a7d2f;
     color: white;
@@ -26,6 +33,7 @@ header h1 {
     opacity: 0.9;
 }
 
+/* MENÚ DE NAVEGACIÓN */
 nav a {
     color: white;
     text-decoration: none;
@@ -45,6 +53,7 @@ nav a:hover {
     background-color: #3f5f20;
 }
 
+/* CONTENIDO PRINCIPAL */
 main {
     max-width: 850px;
     margin: 30px auto;
@@ -77,6 +86,7 @@ section h3 {
     text-align: center;
 }
 
+/* GALERÍA DE IMÁGENES */
 .imagenes {
     display: flex;
     gap: 20px;
@@ -93,6 +103,7 @@ section h3 {
     box-shadow: 2px 2px 6px rgba(0,0,0,0.15);
 }
 
+/* LISTAS Y BLOQUES INFORMATIVOS */
 ul {
     background-color: #f0f4e8;
     padding: 18px 30px;
@@ -116,6 +127,7 @@ ul li {
     font-weight: 500;
 }
 
+/* PIE DE PÁGINA */
 footer {
     background-color: #333333;
     color: white;

@@ -1,0 +1,92 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5e9;
+    color: #44372e;
+    margin: 0;
+}
+
+header {
+    background-color: #b8d8b0;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    color: #355b3e;
+}
+
+nav {
+    background-color: #e7c9a9;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #44372e;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #277344;
+}
+
+main {
+    width: 85%;
+    margin: 20px auto;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e5d5c5;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #527b50;
+}
+
+.fotos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.foto {
+    width: 220px;
+    text-align: center;
+    background-color: #f9eee2;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.foto img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border: 1px solid #d2bda8;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #8dbb85;
+    color: #243c26;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: #b8d8b0;
+}
+
+footer {
+    background-color: #b8d8b0;
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+}
